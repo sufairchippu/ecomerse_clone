@@ -21,6 +21,9 @@ class SplashScreen extends StatelessWidget {
                     ),
                     fit: BoxFit.fill,
                   )),
+                  SizedBox(
+                    width: 20,
+                  ),
                   Container(
                     child: Image(
                       image: AssetImage("assets/images/Stylish.png"),
